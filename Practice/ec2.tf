@@ -53,7 +53,10 @@ resource "aws_security_group" "my_security_group" {
 
 
 resource "aws_instance" "myinstance" {
-    
+      # count = 2
+  #     for_each = tomap({
+  #   "Terraform-instances":"t2.micro"
+  # })
     key_name = aws_key_pair.keypairs.key_name
     instance_type = var.aws_instance_type
  vpc_security_group_ids = [aws_security_group.my_security_group.id]
