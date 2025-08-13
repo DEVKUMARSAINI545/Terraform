@@ -47,11 +47,3 @@ Terraform is an open-source tool that allows you to **define and manage infrastr
 9. **Examples**
    - Ready-to-run `.tf` files for practice
 
----
-
-## 📂 Folder Structur
-terraform-notes/
-├───01-resources/
-├── 02-modules/
-├── 04-state-management/
-├── 08-best-practices/
